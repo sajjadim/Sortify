@@ -110,25 +110,6 @@ python main.py --command organize --directory ./papers/ --categories "AI, Health
 
 
 
-## 📦 Requirements
-
-* Python 3.9+
-* [PyMuPDF](https://pymupdf.readthedocs.io/) (`fitz`)
-* [transformers](https://huggingface.co/transformers/)
-* [datasets](https://huggingface.co/docs/datasets/)
-* [groq](https://groq.com/) SDK
-* `python-dotenv`
-
----
-
-## ⚠️ Limitations
-
-* Summaries may miss nuances for very long documents
-* Categorization depends on summary quality & LLaMA responses
-* Requires **Groq API access**
-
-Perfect 🙌 those are great roadmap items. Adding a **“Future Work”** section in your README not only shows vision but also attracts contributors. Here’s how you can extend your README 👇
-
 ---
 
 ## 🚀 Future Work
