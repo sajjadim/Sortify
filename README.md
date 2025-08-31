@@ -5,11 +5,11 @@
 ## </> Demo
 ```
 # Unorganized files
-(base) milansji@ideapad:~/Projects/sortify/files$ ls
+~/sortify/files$ ls
 Alice_in_Wonderland.pdf  Attention_Is_All_You_Need.pdf  Intro_To_RL.pdf  Segment_Anything.pdf
 
 # Organizing files
-(base) milansji@ideapad:~/Projects/sortify$ python main.py -cmd organize -dir ./files/ -cat "NLP, Computer_Vision, Reinforcement_Learning, Other"
+~/sortify$ python main.py -cmd organize -dir ./files/ -cat "NLP, Computer_Vision, Reinforcement_Learning, Other"
 Classification Results:
 Segment_Anything.pdf: Computer_Vision
 Intro_To_RL.pdf: Reinforcement_Learning
@@ -17,11 +17,11 @@ Attention_Is_All_You_Need.pdf: NLP
 Alice_in_Wonderland.pdf: Other
 
 # Organized directories
-(base) milansji@ideapad:~/Projects/sortify/files$ ls
+~/sortify/files$ ls
 Computer_Vision  NLP  Other  Reinforcement_Learning
 
 # Directory structure
-(base) milansji@ideapad:~/Projects/sortify/files$ tree .
+~/sortify/files$ tree .
 .
 ├── Computer_Vision
 │   └── Segment_Anything.pdf
